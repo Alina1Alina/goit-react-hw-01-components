@@ -25,4 +25,12 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
+TransactionHistory.propTypes = {
+    items: PropTypes.arrayOs(PropTypes.shape({
+        type: PropTypes.string.isRequired,
+        amount: PropTypes.string.isRequired,
+        currency: PropTypes.string.isRequired
+    }))
+}
+
 
