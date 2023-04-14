@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledItem, SlyledStatus, StyledStatus } from './FriendsList.styled';
+import { StyledItem, StyledStatus } from './FriendsList.styled';
 
 export const FriendListItem = ({ id, avatar, name, isOnline }) => {
   console.log(isOnline);
